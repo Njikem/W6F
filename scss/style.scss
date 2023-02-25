@@ -1,0 +1,75 @@
+img{
+    max-width: 100%;
+}
+
+
+#page_header{
+    display:grid;
+    min-height: 10vh;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    
+}
+
+#image{
+    width:80%;
+}
+
+
+
+#page_main{
+    display:grid;
+    min-height: 80vh;
+   margin-bottom: 50px;
+
+}
+
+#main_section{
+    display:grid;
+   
+}
+
+#web{
+    display:grid;
+    
+
+    img{
+        width:300px;
+        height:300px;
+        border:bold;
+        border-radius: 100%;
+    }
+    p{
+        text-align: justify;
+        
+        
+    }
+}
+
+
+#section_three{
+    display:grid;
+    margin-top: 60px;
+   
+
+    img{
+        height:20px;
+        grid-template-columns: 1fr 1fr 1fr;
+     
+        
+    }
+}
+
+
+#page_footer{
+    min-height: 10vh;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding:10px 20px;
+    background-color: black;
+    color:white;
+    text-align: justify;
+    place-items: center;
+}
+
