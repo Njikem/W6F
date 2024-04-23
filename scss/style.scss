@@ -1,0 +1,280 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#head{
+    box-sizing: border-box;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 15px;
+    
+
+    div img{
+        width: 28px;
+    }
+
+    div h2{
+        font-size: large;
+        font-family: 'poppins-regular';
+    }
+}
+
+#main-body{
+ 
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+
+}
+
+.body{
+
+    >h2{
+        padding-bottom: 18px;
+        letter-spacing: .8px;
+    }
+
+    >p{
+        letter-spacing: .3px;
+    }
+}
+
+
+#about{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10px;
+
+   
+}
+
+
+.java{
+    >h2{
+        padding-bottom: 15px;
+        letter-spacing: .8px;
+    }
+
+    >p{
+        width: 90%;
+        padding-left: 20px;
+        line-height: 1.4;
+        letter-spacing: .3px;
+    }
+}
+
+
+
+.image img{
+    width: 230px;
+    clip-path: circle();
+    
+}
+
+.details{
+    
+    >h3{
+        padding-bottom: 15px;
+        letter-spacing: .8px;
+
+    }
+
+    >p{
+        padding-bottom: 15px;
+        letter-spacing: .8px;
+    }
+
+    >h2{
+        padding-bottom: 15px;
+        font-size: medium;
+        font-weight: 800;
+        letter-spacing: .8px;
+    }
+}
+
+
+.social-media img{
+    width: 20px;
+}
+
+
+footer{
+    box-sizing: border-box;
+    min-height: 10vh;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+   
+    >p{
+       width: 90%;
+       padding-left: 20px;
+    }
+}
+
+
+/*Tablet*/
+@media only screen and (min-width: 480px){
+
+
+    footer > p {
+        width: 60%;
+        padding-left: 120px;
+    }
+
+
+    .java > p {
+        width: 70%;
+        padding-left: 80px;
+        line-height: 1.4;
+        letter-spacing: 0.3px;
+    }
+
+
+}
+
+
+/*End of Tablet*/
+
+
+
+
+
+/*Desktop*/
+@media only screen and (min-width: 992px){
+
+
+#about{
+    display: flex;
+   justify-content: space-between;
+
+}
+
+
+
+
+footer > p {
+    width: 45%;
+    padding-left: 250px;
+}
+
+
+.java > p {
+    width: 65%;
+    padding-left: 60px;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+}
+
+
+.image{
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+
+.image img {
+    width: 150px;
+    clip-path: circle();
+}
+
+
+.details{
+ 
+  padding-right: 70px;
+    
+}
+
+
+#head div h2 {
+    font-size: large;
+    font-family: "poppins-regular";
+    padding-left: 10px;
+}
+
+.body{
+    padding-left: 100px;
+}
+
+
+
+
+
+}
+/*End of Desktop*/
+
+
+@media only screen and (min-width: 1025px){
+
+
+    #head div h2{
+        padding-left: 5px;
+    }
+
+
+    #head div img {
+        width: 28px;
+        padding-left: 7px;
+    }
+
+
+.java {
+
+    >h2{
+        padding-right: 100px;
+    }
+}
+
+
+.java > p {
+    width: 50%;
+    padding-left: 160px;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+}
+
+
+
+.image {
+    padding-right: 390px;
+    padding-bottom: 200px;
+}
+
+
+.details{
+ 
+    padding-right: 190px;
+      
+  }
+  
+
+ footer{
+
+    >p{
+        margin-left: 200px;
+        font-size: small;
+    }
+
+ }
+ 
+ 
+ 
+
+
+
+
+}
